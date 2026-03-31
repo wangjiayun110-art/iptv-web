@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="免费IPTV直播源导航 - 香港台湾全球电视频道">
-    <title>My IPTV - 免费直播源导航</title>
+    <meta name="description" content="免费IPTV直播源导航 - 香港台湾央视全球电视频道，680+免费频道，支持PotPlayer、VLC、nPlayer等播放器">
+    <title>My IPTV - 680+免费直播源导航</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         
@@ -322,7 +322,7 @@
     <div class="container">
         <header class="header">
             <h1>📺 My IPTV 直播源</h1>
-            <p>免费港台全球电视频道 · 持续更新</p>
+            <p>免费港台央视全球电视频道 · 680+频道 · 持续更新</p>
         </header>
         
         <div class="search-container">
@@ -336,9 +336,9 @@
         </div>
         
         <div class="section" id="hk-section">
-            <h2>🇭🇰 香港频道 <span class="count">3个</span></h2>
+            <h2>🇭🇰 香港频道 <span class="count">18个</span></h2>
             <div class="link-card" onclick="toggle(this)">
-                <div class="name">翡翠台 · J2 · 无线新闻台</div>
+                <div class="name">翡翠台 · J2 · 无线新闻台 · ViuTV · 港台电视</div>
                 <div class="url">https://你的域名.github.io/iptv-web/hktw.m3u</div>
                 <div class="toggle-hint">点击查看链接</div>
             </div>
@@ -346,8 +346,35 @@
             <a class="btn btn-outline" href="hktw.m3u" download>⬇️ 下载</a>
         </div>
         
+        <div class="section" id="cctv-section">
+            <h2>🇨🇳 央视频道 <span class="count">40个</span></h2>
+            <div class="link-card" onclick="toggle(this)">
+                <div class="name">CCTV-1 ~ CCTV-17 · CCTV-4K · CCTV-8K</div>
+                <div class="url">https://你的域名.github.io/iptv-web/cctv.m3u</div>
+                <div class="toggle-hint">点击查看链接</div>
+            </div>
+            <a class="btn" href="cctv.m3u">📺 央视 M3U</a>
+            <a class="btn btn-outline" href="cctv.m3u" download>⬇️ 下载</a>
+        </div>
+        
+        <div class="section" id="stv-section">
+            <h2>📡 国内卫视 <span class="count">20个</span></h2>
+            <div class="link-card" onclick="toggle(this)">
+                <div class="name">湖南卫视 · 浙江卫视 · 江苏卫视 · 东方卫视等</div>
+                <div class="url">https://你的域名.github.io/iptv-web/cn-stv.m3u</div>
+                <div class="toggle-hint">点击查看链接</div>
+            </div>
+            <a class="btn" href="cn-stv.m3u">📺 卫视 M3U</a>
+            <a class="btn btn-outline" href="cn-stv.m3u" download>⬇️ 下载</a>
+        </div>
+        
         <div class="section" id="global-section">
-            <h2>🌏 全球频道 <span class="count">1个</span></h2>
+            <h2>🌏 全球频道 <span class="count">680个</span></h2>
+            <div class="link-card" onclick="toggle(this)">
+                <div class="name">全球综合频道 · 包含港台、央视、卫视等</div>
+                <div class="url">https://你的域名.github.io/iptv-web/all.m3u</div>
+                <div class="toggle-hint">点击查看链接</div>
+            </div>
             <a class="btn" href="all.m3u">🌐 全球 M3U</a>
             <a class="btn btn-outline" href="all.m3u" download>⬇️ 下载</a>
         </div>
@@ -356,16 +383,17 @@
             <h2>📱 使用说明</h2>
             <div class="info-box">
                 <p>下载 M3U 文件到本地设备</p>
-                <p>用 IPTV 播放器打开（支持：PotPlayer、VLC、nPlayer、KODI、IPTV Smarters）</p>
+                <p>用 IPTV 播放器打开（支持：PotPlayer、VLC、nPlayer、KODI、IPTV Smarters、TVBox）</p>
                 <p>也可导入到电视盒子或智能电视使用</p>
                 <p>部分频道可能需要科学上网才能正常播放</p>
+                <p>直播源来源：nthack/IPTVM3U（GitHub开源项目）</p>
             </div>
         </div>
         
         <footer class="footer">
-            <p class="update-time">最后更新: 2026-03-31</p>
+            <p class="update-time">最后更新: 2026-03-31 | 直播源来源: nthack/IPTVM3U</p>
             <div class="links">
-                <a href="#">GitHub</a>
+                <a href="https://github.com/nthack/IPTVM3U" target="_blank">源仓库</a>
                 <a href="#">反馈问题</a>
                 <a href="#">使用条款</a>
             </div>
